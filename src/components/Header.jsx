@@ -13,9 +13,9 @@ function Header() {
             </div>
             <div class="header-menu">
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Catalogo</a></li>
-                    <li><a href="">Asistencia</a></li>
+                    <li><a href="/home">Inicio</a></li>
+                    <li><a href="/catalog">Catalogo</a></li>
+                    <li><a href="/assistance">Asistencia</a></li>
                 </ul>
             </div>
             <div class="header-icons">

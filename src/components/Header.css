@@ -40,3 +40,20 @@
 .header-menu ul li {
     display: inline-block; 
 }
+
+/* Media queries */
+
+/* Small screens*/
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+   
+}
+
+/* Large screens */
+@media only screen and (min-width: 1025px) {
+    
+}

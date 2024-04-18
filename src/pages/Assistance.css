@@ -1,10 +1,11 @@
-.home-body{
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    background-color: #00ACFF;
+*{
     font-family: 'Poppins', sans-serif; 
+}
+
+p{
+    font-size: larger;
     justify-content: center;
+    margin-left: 25%;
     
 }
 
