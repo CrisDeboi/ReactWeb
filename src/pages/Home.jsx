@@ -19,10 +19,7 @@ function Home() {
                 </div>
 
             </div>
-            <div class='construction'>
-                <img id="contruction" src="under-construction.jpg" alt="en obras" />
-
-            </div>
+           
 
             <Footer />
         </>

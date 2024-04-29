@@ -18,6 +18,8 @@ And finally, I creted the logo of my web with a web AI tool which helped me a lo
 
  ## Acknowledgments
 
+ - Figma example: https://www.figma.com/community/file/1138316365849534403/car-rent-website-design-pickolab-studio
+
  - W3Schools React tutorials: https://www.w3schools.com/REACT/DEFAULT.ASP
 
  - Flexbox using guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
