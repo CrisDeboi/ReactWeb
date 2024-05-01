@@ -7,15 +7,15 @@ function Catalog() {
     return (
         <>
 
-            <div class='catalog-container'>
+            <div className='catalog-container'>
                 <Header />
-                <div class='catalog-body'>
+                <div className='catalog-body'>
                     <p>Este es nuestro  hermoso catálogo (texto final aún por determinar[ya ni hablamos del diseño])</p>
-                    <div class='catalog-cars'>
+                    <div className='catalog-cars'>
 
                         {
                             photos.map((photo) => (
-                                <div class='catalog-car'>
+                                <div className='catalog-car'>
                                     <h1>{`${photo.name}`}</h1>
 
                                     <img src={`${photo.src}`} alt={`${photo.alt}`} />
