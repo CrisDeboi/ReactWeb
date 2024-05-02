@@ -11,6 +11,9 @@ https://mycolor.space/?hex=%231E6FFA&sub=1
 
 And finally, I creted the logo of my web with a web AI tool which helped me a lot:https://www.logoai.com/logo/3470164
 
+For the bigger update for the second delivery, I uploaded a new leaflet component which provides a map to my web and also
+created a realtime databse with Firebase that I used to read the information and display it on a JSON.
+
 
 ## Authors
 
@@ -23,5 +26,9 @@ And finally, I creted the logo of my web with a web AI tool which helped me a lo
  - W3Schools React tutorials: https://www.w3schools.com/REACT/DEFAULT.ASP
 
  - Flexbox using guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+ - Official Leaflet website: https://leafletjs.com/examples/quick-start/
+
+ - Official react-leaflet website: https://react-leaflet.js.org/docs/start-installation/
 
  - Content displayed in class of my teacher Tiburcio Cruz

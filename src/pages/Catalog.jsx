@@ -7,20 +7,27 @@ function Catalog() {
     return (
         <>
 
-            <div class='catalog-container'>
+            <div className='catalog-container'>
                 <Header />
-                <div class='catalog-body'>
-                    <p>Este es nuestro  hermoso catálogo (texto final aún por determinar[ya ni hablamos del diseño])</p>
-                    <div class='catalog-cars'>
+                <div className='catalog-body'>
+                    <div className="catalog-description">
+                        <h1>¿Con ganas de ver nuestros coches?</h1>
+                        <p>Consulte aquí nuestro catálogo actual de coches tanto para 
+                            compra como para alquiler. Los precios mostrados en esta
+                            sección pueden variar en función al precio del oro en bolsa.
+                        </p>
+                        <p>Adelante y consulte nuestros coches con nuestra tecnología <strong>Responsive©</strong>:</p>
+                    </div>
+                    <div className='catalog-cars'>
 
                         {
                             photos.map((photo) => (
-                                <div class='catalog-car'>
+                                <div className='catalog-car'>
                                     <h1>{`${photo.name}`}</h1>
 
                                     <img src={`${photo.src}`} alt={`${photo.alt}`} />
 
-                                    <p>{`${photo.price}`}€</p>
+                                    <p><strong>{`${photo.price}`}€</strong></p>
                                 </div>
 
                             ))

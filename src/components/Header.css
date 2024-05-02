@@ -4,6 +4,8 @@
     background-color: #1E6FFA;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: 0;    
 }
 
 .header-logo {
@@ -19,6 +21,7 @@
 .header-menu {
     display: flex;
     font-family: 'Poppins', sans-serif;
+    margin-left: -10em;
 }
 
 .header-menu ul li a {
@@ -29,7 +32,14 @@
     font-weight: bold;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 10px;
 }
+
+.header-menu ul li a:hover {
+    background-color: #174fbc;    
+   border-radius: 1em;
+}
+
 
 .header-menu ul {
     list-style-type: none;
@@ -43,6 +53,37 @@
 
 .header-icon-bars{
     display: none;
+}
+
+.header-side-menu {
+    position: absolute;
+    top: - 400px;
+    right: -400px; 
+    width: 200px;
+    background-color: #1E6FFA;
+    transition: right 0.3s ease; 
+    display: none;
+}
+
+.header-side-menu.open {
+    right: 0; 
+    display: block;
+}
+
+.header-side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-side-menu ul li {
+    padding: 10px;
+}
+
+.header-side-menu ul li a {
+    text-decoration: none;
+    color: #EDEEFF;
+    display: block;
+    font-weight: bold;
 }
 
 /* Media queries */
