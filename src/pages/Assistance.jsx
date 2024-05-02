@@ -21,13 +21,13 @@ function Assistance() {
                     <div className="assistance-description">
                         <h1>¿Perdido?¿No sabes qué hacer?</h1>
                         <p>No te preocupes, a todos nos pasa en algún momento de nuestras vidas.
-                            Lamentablemente desde ResponsiveCars© no disponemos de ese tipo de
+                            Lamentablemente desde <strong>ResponsiveCars©</strong> no disponemos de ese tipo de
                             asistencia pero si alguna vez necesitas ayuda con algún tema relacionado
                             con nuestra gama de productos no dudes en consultarnos</p>
 
                         <h1>¿Cómo contactarnos?</h1>
-                        <p>Puedes pasar a visitarnos en cualquier momento de lunes a viernes de 9:00
-                            a 14:00
+                        <p>Puedes pasar a visitarnos en cualquier momento de lunes a viernes de 9:00h
+                            a 14:00h.
                         </p>
 
                     </div>
@@ -50,6 +50,7 @@ function Assistance() {
                     <div className="assistance-map-description">
                         <p>Dirección: Calle José velez nº 8, Telde</p>
                         <p>Teléfono de contacto: 928 13 91 50</p>
+                        <p>Email: pepitopalotes@telde.com</p>
 
                     </div>
                 </div>

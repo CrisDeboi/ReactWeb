@@ -43,10 +43,10 @@ let photos = [
     },
     {
         name: 'El TeldeMovil',
-        src: 'telde-movil.jpg',
+        src: 'telde-movil.png',
         alt: 'teldemovil',
         price: 8500
-    }
+    },
 
 ]
 
