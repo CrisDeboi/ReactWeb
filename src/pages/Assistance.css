@@ -39,14 +39,14 @@ body {
     margin: 10vh auto;
     width: 30vw;
     height: 30vh;
-    margin-bottom: 1em;
-    
+    margin-bottom: 1em;   
+    padding: 5em;    
 }
 
 .assistance-map-description{
     text-align: center;
     display: inline-block;      
-    margin-left: 35%;
+    margin-left: 37.5%;
     margin-right: 35%;
     
 }
@@ -79,6 +79,14 @@ body {
         font-size: 12px;       
         margin-right: 20%;
         margin-left: 30%;       
+    }
+
+    .locations-map-container {
+        margin: 10vh auto;
+        width: 30vw;
+        height: 30vh;
+        margin-bottom: 1em;
+        
     }
 }
 

@@ -15,6 +15,14 @@
     margin-right: 2em;
     align-items: center;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+    position: relative;
+}
+
+#remove-button{
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .name{
@@ -43,11 +51,12 @@
 @media only screen and (max-width: 600px) {
 
     .review-item {
-        margin-left: 6em;
+        margin-left: 2.2em;
+        width: 80%;
         
     }
     .review-item > p {
-        font-size: 9px;
+        font-size: 10px;
     }
     .review-container-list {
         flex-direction: column;
