@@ -1,10 +1,14 @@
 import { useState, useEffect, useRef } from "react";
 import ReviewService from "../../services/review.service";
 import "./ReviewList.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPen, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 function ReviewList() {
     const [reviews, setReviews] = useState([]);
     const refForm = useRef();
+    const [editingKey, setEditingKey] = useState(null); 
+   
 
     const getAllReviews = () => {
         ReviewService.getAllReviews()
@@ -57,20 +61,24 @@ function ReviewList() {
                         <div className="review-item">
                             <p className="name">{r.name}:</p>
                             <p className="review">"{r.review}"</p>
-                            <p className="score">Puntuación:  {r.score}/5</p>
-                            <button id="remove-button" onClick={() => removeReview(r.key)}>Eliminar</button>
+                            <p className="score">Puntuación:  {r.score}/5</p>                           
+                            <FontAwesomeIcon id="remove-button" icon={faTimes} style={{color: "#001E90"}} title="Eliminar"  onClick={() => removeReview(r.key)}/>
+                            <FontAwesomeIcon id="update-button" icon={faPen} style={{color: "#001E90"}} title="Actualizar"  />
 
                         </div>
-                    )}
+                    )}                    
                 </div>
-                <form ref={refForm} onSubmit={addReview}>
-                    <input type="text" name="name" placeholder="Nombre" required />
-                    <textarea name="review" placeholder="Reseña" required></textarea>
-                    <input type="number" name="score" placeholder="Puntuación (1-5)" min="1" max="5" required />
-                    <button type="submit">Agregar Reseña</button>
-                </form>
+                
+
 
             </div>
+            <form className="review-form"ref={refForm} onSubmit={addReview}>
+                <input type="text" name="name" placeholder="Nombre" required />
+                <input id="review-content"  type="text" name="review" placeholder="Reseña" required></input>
+                <input type="number" name="score" placeholder="Puntuación (1-5)" min="1" max="5" required />
+                <button type="submit">Agregar Reseña</button>
+            </form>
+          
 
         </>
     )
