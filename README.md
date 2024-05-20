@@ -20,7 +20,7 @@ As for this update, we uploaded our project to firebase hosting: https://respons
 
 Also we applied a RSS file wich describes the main elements of the web
 
-![Feedly con mi RSS](feedly-screenshot.png)
+![Feedly con mi RSS](/public/feedly-screenshot.png)
 
 
 
