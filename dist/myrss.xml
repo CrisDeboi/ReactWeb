@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0">
+    <channel>
+        <title>ResponsiveCars</title>
+        <link>https://responsivecars.web.app</link>
+        <description>WEB ResponsiveCars by Cristian Marrero</description>
+        <language>es-ES</language>
+        <ttl>4</ttl>
+        <item>
+            <title>Home</title>
+            <link>https://responsivecars.web.app/home</link>
+            <description>Página Home</description>
+        </item>
+        <item>
+            <title>Catálogo</title>
+            <link>https://responsivecars.web.app/catalog</link>
+            <description>Nuestros coches</description>
+        </item>
+        <item>
+            <title>Asistencia</title>
+            <link>https://responsivecars.web.app/assistance</link>
+            <description>Asistencia y consultas</description>
+        </item>        
+    </channel>
+</rss>

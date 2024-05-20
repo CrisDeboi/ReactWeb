@@ -1,0 +1,14 @@
+body {
+    overflow-x: hidden;    
+}
+
+
+.rss-container {
+    position: relative;
+
+}
+
+.rss-body{
+    width: 80vw;
+    height: 85vh;
+}

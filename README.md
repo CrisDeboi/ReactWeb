@@ -14,6 +14,15 @@ And finally, I creted the logo of my web with a web AI tool which helped me a lo
 For the bigger update for the second delivery, I uploaded a new leaflet component which provides a map to my web and also
 created a realtime databse with Firebase that I used to read the information and display it on a JSON.
 
+--20/05/2024 delivery
+
+As for this update, we uploaded our project to firebase hosting: https://responsivecars.web.app/
+
+Also we applied a RSS file wich describes the main elements of the web
+
+![Feedly con mi RSS](feedly-screenshot.png)
+
+
 
 ## Authors
 
